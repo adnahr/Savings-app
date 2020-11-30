@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Account</title>
+    <link rel='stylesheet' href='/stylesheets/accounts.css' />
+</head>
+<body>
+<div id="div">
+    <a href="/users/logout" class="p">Logout</a>
+
+
+</div>
+
+<%blogs.forEach(b => {%>
+<h1>Title: <%=b.title%></h1>
+<p> <%=b.blog_text%></p>
+<%})%>
+</body>
+</html>
